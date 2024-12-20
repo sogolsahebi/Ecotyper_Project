@@ -29,14 +29,16 @@ This repository contains scripts and outputs for immune cell deconvolution and m
 ```plaintext
 .
 ├── scripts/                      # Contains all RMarkdown analysis scripts
+│   ├── Data_processing.Rmd             # Data processing script
+│   ├── Deconvolution_Jung_Processing_Associations.Rmd  # Jung dataset analysis
+│   ├── CIBERSORT_AllDatasets_Processing_Associations.Rmd  # CIBERSORT analysis
+│   └── CIBERSORT_MetaAnalysis_Response_Associations.Rmd  # Meta-analysis script
 ├── outputs/                      # Directory for generated outputs
-│   ├── Cibersort_Alldatasets_outputs/
-│   │   └── (Per-dataset results from CIBERSORT)
-│   ├── Dataprocessing_outputs/   # Processed data and plots
-│   ├── Deconvolution_Jung_outputs/
-│   │   └── (Deconvolution plots for Jung dataset)
-│   └── MetaAnalysis_outputs/     # Meta-analysis results
-└── README.md                     # Project overview
+│   ├── Cibersort_Alldatasets_outputs/       # Per-dataset CIBERSORT results
+│   ├── Dataprocessing_outputs/             # Processed data and visualizations
+│   ├── Deconvolution_Jung_outputs/         # Deconvolution plots for Jung dataset
+│   └── MetaAnalysis_outputs/               # Meta-analysis results
+└── README.md                    # Project overview and script descriptions
 ```
 
 #### **Key Datasets**
