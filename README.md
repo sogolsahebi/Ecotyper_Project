@@ -28,7 +28,7 @@ This repository contains scripts and outputs for immune cell deconvolution and m
 #### **Repository Structure**
 ```plaintext
 .
-├── scripts/                      # Contains all RMarkdown analysis scripts
+├── scripts/                      # Contains all RMarkdown  scripts
 │   ├── Data_processing.Rmd             # Data processing script
 │   ├── Deconvolution_Jung_Processing_Associations.Rmd  # Jung dataset analysis
 │   ├── CIBERSORT_AllDatasets_Processing_Associations.Rmd  # CIBERSORT analysis
