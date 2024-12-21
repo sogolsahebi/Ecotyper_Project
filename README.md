@@ -6,7 +6,7 @@ This repository contains scripts and outputs for immune cell deconvolution and m
 #### **Project Workflow**
 1. **Data Processing**:
    - Script: `Data_processing.Rmd`
-   - Processes raw datasets and applies exclusion criteria.
+   - Processes raw datasets and applies exclusion criteria , and generates visualizations.
 
 2. **Deconvolution Analysis**:
    - Script: `Deconvolution_Jung_Processing_Associations.Rmd`
